@@ -11,7 +11,7 @@
 - Calculated probabilities of cobalt being found based on the presence of both serpentinite and granodiorite
 - Plotted heatmap showing probabilities of finding cobalt within each location
 
-### To run:
+### Getting Started:
 **Be sure to have python v3.0 or higher installed**
 
 1) Start by setting up env
@@ -21,9 +21,10 @@
 `python3 bedrock_heatmap.py --buffer [buffer_parameter]`
 
 *Note: if no buffer parameter is passed, default will be `5km`*
+
 **Map saved as cobalt.jpg**
 
-### Data:
+### Code Structure:
 `BedrockHeatMap` class contains the following properties:
 ```
 BHM = BedrockHeatMap()
