@@ -1,0 +1,7 @@
+click
+geoplot
+geopandas
+matplotlib
+numpy
+pandas
+shapely
